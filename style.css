@@ -3,6 +3,28 @@
 .green {color: green;}
 .blue {color: blue;}
 
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50%      { transform: translateY(25px); }
+}
+
+.dancing-cockroach {
+
+    position: fixed;
+    top: 10px;
+    right: 10px;
+
+    animation: bounce 1s ease-in-out infinite;
+
+}
+
+.dancing-cockroach img {
+
+    width: 300px;
+    height: 500px;
+
+}
+
 .Repo{
 
     display: flex;
