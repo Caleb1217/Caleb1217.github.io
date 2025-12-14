@@ -1,0 +1,12 @@
+
+.red {color: red;}
+.green {color: green;}
+.blue {color: blue;}
+
+.Repo{
+
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 32px;
+}
